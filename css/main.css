@@ -1,0 +1,88 @@
+.mylogo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-wrapper {
+    background-color: black !important;
+}
+
+.cov {
+    background-image: url('../assets/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+h4 {
+    margin: 0px !important;
+    padding-top: 170px;
+}
+
+.bsize {
+    height: 715px !important;
+
+}
+
+.foto {
+    margin-left: 150px;
+}
+
+p {
+    margin-top: 50px;
+    margin-left: -60px; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+i {
+    margin-left: 160px; 
+}
+
+
+h4 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    top: 30% !important;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-bottom: -30px;
+}
+
+h5 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.box {
+    height: 500px;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.box:hover {
+  
+}
+
+.photo {
+    height: 200px;
+    width: 200px;
+    margin-left: 320px;
+    margin-bottom: 0px;
+    
+}
+
+.boton {
+    margin-top: 30px;
+    margin-left: 340px;
+    background-color: #612643 !important;
+}
+
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    color: black;
+    margin-top: 60px;
+    font-size: 20px;
+}
