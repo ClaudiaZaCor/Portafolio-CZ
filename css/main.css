@@ -1,88 +1,151 @@
+body {
+    background-color: #FBE9E5;
+}
+
 .mylogo {
-    height: 50px;
-    margin-left: 10px;
+    height: 55px;
+    margin-top: 10px; 
+    margin-left: -160px;
+    /*margin-top: 5px; 
+    margin-left: 50px;*/
+}
+
+.navbar-fixed {
+    transition: .5s;
 }
 
 .nav-wrapper {
-    background-color: black !important;
+    background-color:#FBE9E5 !important;
+    height: 6em !important;
+    
 }
 
+.hamburguer {
+    color: black;
+    margin:10px 0 0 300px !important;
+    font-size: 35px !important; 
+}
+
+.side-nav {
+    background-color: #FBE9E5;
+    height: 40%;
+    width: 200px;
+    top:13%;
+    right: -40%;
+    box-shadow: none;
+    
+}
 .cov {
-    background-image: url('../assets/background.jpg');
+    background-image: url('../assets/2.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
+    height: 80%; 
+   opacity: 0.9;
 }
 
 h4 {
-    margin: 0px !important;
-    padding-top: 170px;
+    /*margin: 0px !important;
+    padding-top: 0px;*/
 }
 
 .bsize {
-    height: 715px !important;
+    height: 650px !important;
+}
 
+.about {
+    height: 850px;
 }
 
 .foto {
-    margin-left: 150px;
+    /*margin-left: 150px;*/
 }
 
+span {
+    color: #1B1C41; 
+    font-size: 70px; 
+}
+
+
 p {
-    margin-top: 50px;
-    margin-left: -60px; 
+    /*margin-top: 50px;
+    margin-left: -60px;*/ 
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+.pad20 {
+    margin-top: 20px;
+}
+
+.pad60 {
+    margin-top: 350px;    
 }
 
 i {
-    margin-left: 160px; 
+    /*margin-left: 160px;*/ 
+    
 }
 
 
 h4 {
-    font-family: 'Fjalla One', sans-serif;
-    color: black;
+    font-family: 'Anton', sans-serif;
+    color: #1B1C41;
     top: 30% !important;
-    font-size: 50px;
-    margin-top: 40px;
-    margin-bottom: -30px;
+    font-size: 30px;
+    margin-top: -70px;
+    margin-bottom: 80px;
+    line-height: 80px !important;
 }
 
 h5 {
+    color: #FBE9E5;
     font-family: 'Fjalla One', sans-serif;
-    color: black;
-    margin-top: 30px;
     font-size: 30px;
+    padding-top: 150px;
 }
 
 .box {
     height: 500px;
     width: 100%;
-    padding-top: 20px;
-}
-
-.box:hover {
-  
+    /*padding-top: 20px;*/
 }
 
 .photo {
-    height: 200px;
-    width: 200px;
-    margin-left: 320px;
-    margin-bottom: 0px;
-    
-}
-
-.boton {
-    margin-top: 30px;
-    margin-left: 340px;
-    background-color: #612643 !important;
+    height: 250px;
+    width: 250px;
+    margin:-60px 0 0 90px;    
 }
 
 h6 {
     font-family: 'Fjalla One', sans-serif;
-    color: black;
-    margin-top: 60px;
+    color: #1A2129;
+    /*margin-top: 60px;*/
     font-size: 20px;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }    
+
+.shadows {
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: -15px 5px 20px #FBE9E5;
+    color: #FBE9E5;
+    letter-spacing: -0.05em;
+    font-family: 'Anton', sans-serif;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: 120px;
+    transition: all 0.25s ease-out;
+    letter-spacing: -10px;
+}
+.shadows:hover {
+    text-shadow: -16px 6px 15px #FBE9E5;
 }
